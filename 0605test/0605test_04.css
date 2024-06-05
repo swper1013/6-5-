@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#header {
+  width: 1200px;
+  height: 200px;
+
+  display: flex;
+}
+.logo {
+  width: 20%;
+  height: 200px;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+.nav {
+  width: 80%;
+  height: 200px;
+}
+.nav > ul {
+  display: flex;
+
+  margin-top: 100px;
+}
+.nav > ul > li {
+  margin: 20px;
+}
+.nav > ul > li > a {
+  font-size: 20px;
+  display: block;
+  font-weight: bold;
+  width: 150px;
+  height: 40px;
+  padding-top: 10px;
+  z-index: 1000;
+}
+.nav > ul > li > a:hover {
+  border-bottom: 3px solid orange;
+  background-color: rgba(255, 165, 0, 0.4);
+  color: gray;
+  z-index: 1000;
+}
+
+.nav > ul > li > ul > li > a {
+  display: block;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 1000;
+}
+.nav > ul > li > ul > li > a:hover {
+  border-top: 3px solid orange;
+  color: gray;
+  z-index: 1000;
+}
+#gong {
+  width: 1200px;
+  height: 200px;
+}
+#gong > ul {
+  margin-top: 150px;
+  display: flex;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+#gong > ul > li > a {
+  margin-left: 130px;
+  color: white;
+  text-shadow: 3px 1px 3px black;
+  display: none;
+}
+
+#contents {
+  width: 1200px;
+  height: 500px;
+  font-weight: bold;
+  display: none;
+}
+.img1 span {
+  font-size: 13px;
+  float: right;
+}
+.img1 {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  margin-left: 40px;
+  z-index: 0;
+}
+.input {
+  position: relative;
+  margin-left: 50px;
+  z-index: 0;
+}
+.onput {
+  width: 100%;
+  height: 230px;
+  position: absolute;
+  background-color: rgba(165, 42, 42, 0.3);
+  z-index: 1000;
+  margin-top: 5px;
+  margin-left: -1px;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  display: none;
+}
+
+.img2 {
+  margin-top: 40px;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  margin-left: 40px;
+  z-index: 0;
+}
+.img2 span {
+  font-size: 13px;
+  float: right;
+}

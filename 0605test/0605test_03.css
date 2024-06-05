@@ -1,0 +1,43 @@
+#slide {
+  width: 1200px;
+  height: 500px;
+  background-color: red;
+}
+.slide {
+  width: 1200px;
+  height: 500px;
+  position: relative;
+}
+.slide img {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+}
+.slide p {
+  position: absolute;
+  z-index: 1000;
+  font-size: 30px;
+  line-height: 180%;
+  top: 10%;
+  left: 5%;
+}
+.slide span {
+  font-weight: bolder;
+}
+.slide .a {
+  font-size: 16px;
+}
+.slide .but {
+  position: absolute;
+  top: 55%;
+  font-size: 15px;
+  text-align: center;
+  left: 5%;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+.slide .but:hover {
+  cursor: pointer;
+  background-color: brown;
+}

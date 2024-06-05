@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>요금구분</title>
+    <script src="jquery.js"></script>
+    <script src="0605_2.js"></script>
+    <style>
+      .h3 {
+        font-size: 30px;
+        margin-left: 28.5%;
+        margin-bottom: 0;
+      }
+      table {
+        margin-top: 0;
+        text-align: center;
+        border: 1px solid;
+      }
+      table th {
+        height: 50px;
+        border: 1px solid;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      table td {
+        border: 1px solid;
+        width: 400px;
+        height: 50px;
+      }
+      .in {
+        margin-left: 300px;
+        margin-top: 20px;
+        height: 50px;
+        font-size: 24px;
+      }
+      .go {
+        margin-left: 20px;
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <h3 class="h3">요금표</h3>
+      <tr>
+        <th>구분</th>
+        <th>요금</th>
+      </tr>
+      <tr>
+        <td>아동</td>
+        <td>무료</td>
+      </tr>
+      <tr>
+        <td>청소년</td>
+        <td>2000원</td>
+      </tr>
+      <tr>
+        <td>성인</td>
+        <td>5000원</td>
+      </tr>
+    </table>
+    <input type="text" class="in" /><button class="go">확인</button>
+  </body>
+</html>
